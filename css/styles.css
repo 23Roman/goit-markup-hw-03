@@ -24,11 +24,30 @@ body {
   background: #fff;
   color: #434455;
 }
-ul,
-ol {
+ul,ol {
   list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
 }
+p,h1,h2,h3 {
+  margin-top: 0;
+  margin-bottom: 0;
 
+}
+.container { 
+width: 1158px;
+margin: 0 auto;
+padding-left: 15px;
+padding-right:  15px;
+max-width: 
+margin-left:  
+margin-right:  
+}
+.header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
 .header-logo-link {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -77,6 +96,9 @@ ol {
 }
 .hero {
   background-color: #2e2f42;
+}
+.hero-container { 
+  padding: 188px 472px 292px 473px;
 }
 .hero-baner-title {
   color: #fff;
