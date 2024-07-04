@@ -30,7 +30,7 @@ ul,ol {
   margin-bottom: 0;
   padding-left: 0;
 }
-p,h1,h2,h3 {
+p,h1,h2,h3,h4,h5 {
   margin-top: 0;
   margin-bottom: 0;
 
@@ -44,10 +44,12 @@ max-width:
 margin-left:  
 margin-right:  
 }
+
 .header {
   padding-top: 24px;
   padding-bottom: 24px;
 }
+
 .header-logo-link {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -58,13 +60,20 @@ margin-right:
   text-decoration: none;
   color: #4d5ae5;
 }
+
 .header-logo-navy {
   color: #2e2f42;
 }
+
+.header-nav-list {
+  
+}
+
 .header-nav-link:hover,
 .header-nav-link:focus {
   color: #404bbf;
 }
+
 .header-nav-link {
   color: #2e2f42;
   text-decoration: none;
@@ -73,8 +82,9 @@ margin-right:
   line-height: 150%;
   letter-spacing: 0.02em;
 }
+
 .header-nav-address {
-  font-weight: 400;
+  /* font-weight: 400; */
   text-decoration: none;
   font-size: 16px;
   line-height: 150%;
@@ -86,7 +96,7 @@ margin-right:
 }
 .header-contacts-link {
   text-decoration: none;
-  font-weight: 400;
+  /* font-weight: 400; */
   font-style: normal;
   color: var(--slate);
 }
@@ -117,6 +127,9 @@ margin-right:
   color: #fff;
   background: #4d5ae5;
   cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  border: none;
 }
 .hero .btn-baner:hover,
 .hero .btn-baner:focus {
@@ -133,7 +146,7 @@ margin-right:
   letter-spacing: 0.02em;
 }
 .advantages-list-text {
-  font-weight: 400;
+  /* font-weight: 400; */
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
@@ -162,7 +175,7 @@ margin-right:
   color: #2e2f42;
 }
 .team-list-text {
-  font-weight: 400;
+  /* font-weight: 400; */
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
@@ -187,8 +200,9 @@ margin-right:
   letter-spacing: 0.02em;
   color: var(--navy-blue);
 }
+
 .portfolio-list-text {
-  font-weight: 400;
+  /* font-weight: 400; */
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
@@ -197,6 +211,7 @@ margin-right:
 .section-footer {
   background: #2e2f42;
 }
+
 .footer-logo-link {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -207,11 +222,13 @@ margin-right:
   text-decoration: none;
   color: #4d5ae5;
 }
+
 .footer-logo {
   color: #f4f4fd;
 }
+
 .footer-text {
-  font-weight: 400;
+  /* font-weight: 400; */
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
