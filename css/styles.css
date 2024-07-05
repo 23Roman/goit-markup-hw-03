@@ -14,6 +14,7 @@
   --font-family: "Roboto", sans-serif;
   --second-family: "Raleway", sans-serif;
 }
+
 body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -24,12 +25,14 @@ body {
   background: #fff;
   color: #434455;
 }
+
 ul,ol {
   list-style-type: none;
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
 }
+
 p,h1,h2,h3,h4,h5 {
   margin-top: 0;
   margin-bottom: 0;
@@ -44,6 +47,8 @@ max-width:
 margin-left:  
 margin-right:  
 }
+
+/* --------------- HEADER  --------------- */
 
 .header {
   padding-top: 24px;
@@ -91,25 +96,35 @@ margin-right:
   letter-spacing: 0.02em;
   font-style: normal;
 }
+
 .header-nav-list {
   font-style: normal;
 }
+
 .header-contacts-link {
   text-decoration: none;
   /* font-weight: 400; */
   font-style: normal;
   color: var(--slate);
 }
+
 .header-nav-address .header-contacts-link:hover,
 .header-nav-address .header-contacts-link:focus {
   color: #404bbf;
 }
+
+/* ---------------  --------------- */
+
+/* --------------- HERO --------------- */
+
 .hero {
   background-color: #2e2f42;
 }
+
 .hero-container { 
   padding: 188px 472px 292px 473px;
 }
+
 .hero-baner-title {
   color: #fff;
   font-weight: 700;
@@ -118,6 +133,7 @@ margin-right:
   letter-spacing: 0.02em;
   text-align: center;
 }
+
 .btn-baner {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -131,20 +147,28 @@ margin-right:
   margin: 0 auto;
   border: none;
 }
+
 .hero .btn-baner:hover,
 .hero .btn-baner:focus {
   background: #404bbf;
 }
+
+/* ---------------  --------------- */
+
+/* --------------- ADVANTAGES --------------- */
+
 .advantages {
   color: #2e2f42;
 }
-.advantages-list {
+
+.advantages-titel {
   color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;
   letter-spacing: 0.02em;
 }
+
 .advantages-list-text {
   /* font-weight: 400; */
   font-size: 16px;
@@ -152,10 +176,16 @@ margin-right:
   letter-spacing: 0.02em;
   color: #434455;
 }
+
+/* ---------------  --------------- */
+
+/* --------------- TEAM --------------- */
+
 .team {
   background: #f4f4fd;
 }
-.team-header {
+
+.team-titel {
   font-weight: 700;
   font-size: 36px;
   line-height: 111%;
@@ -164,9 +194,11 @@ margin-right:
   text-align: center;
   text-transform: capitalize;
 }
+
 .team-list-card {
-  background-color: #ffffff;
+  background-color: #fff;
 }
+
 .team-list-header {
   font-weight: 500;
   font-size: 20px;
@@ -174,6 +206,7 @@ margin-right:
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+
 .team-list-text {
   /* font-weight: 400; */
   font-size: 16px;
@@ -182,6 +215,10 @@ margin-right:
   color: var(--slate);
   font-style: normal;
 }
+
+/* ---------------  --------------- */
+
+/* --------------- PORTFOLIO --------------- */
 
 .portfolio {
   color: #2e2f42;
@@ -208,6 +245,11 @@ margin-right:
   letter-spacing: 0.02em;
   color: var(--slate);
 }
+
+/* ---------------  --------------- */
+
+/* --------------- FOOTER --------------- */
+
 .section-footer {
   background: #2e2f42;
 }
@@ -234,3 +276,5 @@ margin-right:
   letter-spacing: 0.02em;
   color: var(--cloud);
 }
+
+/* ---------------  --------------- */
