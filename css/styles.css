@@ -202,7 +202,7 @@ color: var(--slate);
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-align: center;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
 }
 
 .team-list-card {
@@ -230,7 +230,9 @@ color: var(--slate);
 
 /* --------------- PORTFOLIO --------------- */
 
-.portfolio {
+
+
+.portfolio-titel {
   color: #2e2f42;
   font-weight: 700;
   font-size: 36px;
@@ -249,7 +251,6 @@ color: var(--slate);
 }
 
 .portfolio-list-text {
-  /* font-weight: 400; */
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
@@ -280,7 +281,6 @@ color: var(--slate);
 }
 
 .footer-text {
-  /* font-weight: 400; */
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
