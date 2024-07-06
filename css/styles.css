@@ -39,6 +39,8 @@ p,h1,h2,h3,h4,h5 {
   margin-bottom: 0;
 }
 
+.team-list-card > img {display: block;}
+
 /* --------------- LOGO  --------------- */
 
 .logo {font-family: "Raleway", sans-serif;
