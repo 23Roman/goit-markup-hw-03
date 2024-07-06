@@ -79,7 +79,8 @@ margin-right:
   padding-bottom: 24px;
 }
 
-.header-container {display: flex;
+.header-container {
+  display: flex;
   align-items: center;
 }
 
@@ -131,21 +132,23 @@ margin-right:
 
 .hero {
   background-color: #2e2f42;
-  
+  padding: 180px;
 }
 
-/* .hero-container { 
-  padding: 188px 472px 292px 472px;
-} */
+.hero-container { 
+  display: block;
+  }
 
 .hero-baner-title {
-  margin-bottom: 48px;
+  max-width: 496px;
   color: #fff;
   font-weight: 700;
   font-size: 56px;
   line-height: 107%;
   letter-spacing: 0.02em;
   text-align: center;
+  margin: 0 auto;
+  margin-bottom: 48px;
   }
 
 .btn-baner {
@@ -161,7 +164,8 @@ margin-right:
   display: block;
   margin: 0 auto;
   border: none;
-}
+  border-radius: 4px;
+  }
 
 .hero .btn-baner:hover,
 .hero .btn-baner:focus {
@@ -232,7 +236,7 @@ gap: 24px;}
 
 .team-list-card {
   background-color: #fff;
-}
+  }
 
 .team-list-header {
   font-weight: 500;
@@ -240,6 +244,8 @@ gap: 24px;}
   line-height: 120%;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-align: center;
+  margin-bottom: 8px;
 }
 
 .team-list-text {
@@ -249,6 +255,7 @@ gap: 24px;}
   letter-spacing: 0.02em;
   color: var(--slate);
   font-style: normal;
+  text-align: center;
 }
 
 /* ---------------  --------------- */
