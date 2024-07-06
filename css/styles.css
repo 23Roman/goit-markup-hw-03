@@ -70,14 +70,6 @@ img {
   color: #2e2f42;
 }
 
-.logo .footer-logo {
-  display: inline-block;
-  margin-bottom: 16px;
-}
-
-.footer-logo .logo-part {
-  color: #f4f4fd;
-}
 
 /* ---------------  --------------- */
 
@@ -378,10 +370,20 @@ img {
 }
 
 .footer-text {
+  max-width: 264px;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
   color: var(--cloud);
+}
+
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.footer-logo .logo-part {
+  color: #f4f4fd;
 }
 
 /* ---------------  --------------- */
