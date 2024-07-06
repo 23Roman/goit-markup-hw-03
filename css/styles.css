@@ -138,7 +138,9 @@ margin-right:
 }
 
 .hero-container { 
+  padding: 188px 0
   display: block;
+
   }
 
 .hero-baner-title {
@@ -155,6 +157,7 @@ margin-right:
 
 .btn-baner {
   padding: 16px 32px;
+  min-width: 169px
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -249,6 +252,9 @@ color: var(--slate);
 gap: 24px;}
 
 .team-list-card {
+  border-radius: 0 0 4px 4px;
+  padding: 0px 0px 32px 0px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background-color: #fff;
   }
 
