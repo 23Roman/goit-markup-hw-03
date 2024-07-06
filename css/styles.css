@@ -313,7 +313,7 @@ img {
 }
 
 .portfolio-titel {
-  margin-bottom: 60px;
+  margin-bottom: 72px;
   color: #2e2f42;
   font-weight: 700;
   font-size: 36px;
@@ -321,6 +321,7 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
+  /* margin-bottom: 60px; */
 }
 
 .portfolio-list {
