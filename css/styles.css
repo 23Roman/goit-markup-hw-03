@@ -220,7 +220,6 @@ color: var(--slate);
 }
 
 .team-titel {
-  
   margin-bottom: 72px;
   font-weight: 700;
   font-size: 36px;
@@ -266,6 +265,8 @@ gap: 24px;}
 .portfolio{}
 
 .portfolio-titel {
+  margin-top: 120px;
+  margin-bottom: 60px;
   color: #2e2f42;
   font-weight: 700;
   font-size: 36px;
@@ -275,7 +276,15 @@ gap: 24px;}
   text-transform: capitalize;
 }
 
-.portfolio-list{}
+.portfolio-list{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 120px;
+}
 
 .portfolio-item{}
 
@@ -285,7 +294,8 @@ gap: 24px;}
   line-height: 120%;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
-}
+  margin-bottom: 8px;}
+
 
 .portfolio-subtitel-text {
   font-size: 16px;
