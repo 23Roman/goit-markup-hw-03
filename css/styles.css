@@ -329,15 +329,18 @@ img {
 }
 
 .portfolio-list {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-  list-style: none;
-  padding: 0;
-  margin: 0;
+  display: flex; 
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;  
+  /* /* grid-template-columns: repeat(3, 1fr); */
+  gap: 20px; */
+  /* list-style: none; */
+  /* padding: 0; */
+  /* margin: 0; */
 }
 
-.portfolio-item {
+.portfolio-item {width: calc((100% - 48px) / 3); 
 }
 
 .portfolio-subtitel {
