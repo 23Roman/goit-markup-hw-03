@@ -77,8 +77,7 @@ margin-right:
 
 .header {
   border-bottom: 1px solid #e7e9fc;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px 0;
 }
 
 .header-container {
@@ -135,6 +134,7 @@ margin-right:
 .hero {
   background-color: #2e2f42;
   padding: 180px;
+  
 }
 
 .hero-container { 
