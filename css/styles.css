@@ -96,7 +96,7 @@ img {
 .header-container {
   display: flex;
   align-items: center;
-  /* padding: 24px 0; */
+  padding: 24px 0;
 }
 
 .header-nav {
@@ -111,7 +111,7 @@ img {
 }
 
 .nav-item {
-  padding: 24px 0;
+  /* padding: 24px 0; */
 }
 
 .nav-link {
