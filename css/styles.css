@@ -101,24 +101,22 @@ img {
   display: flex;
   align-items: center;
   gap: 40px;
-  /* padding-top: 24px;
-  padding-bottom: 24px; */
-}
+  }
 
 .nav-item {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  
 }
 
 .nav-link {
   display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
   color: #2e2f42;
   text-decoration: none;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.02em;
-  /* padding-top: 24px;
-  padding-bottom: 24px; */
+  
 }
 
 .contacts {
@@ -138,8 +136,8 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  /* padding-top: 24px;
-  padding-bottom: 24px; */
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .nav-link:hover,
